@@ -1,0 +1,240 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;800&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    margin: 0 auto;
+    width: 80%;
+}
+.head-main{
+    display: flex;
+    align-items: center;
+}
+.head-text{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+.head-text:hover{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+.head-main{
+    padding: 24px;
+}
+.head-text button{
+    width: 189px;
+    height: 47px;
+    font-size: 15px;
+    background-color: transparent;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+}
+.head-text button:hover{
+    width: 189px;
+    height: 47px;
+    font-size: 15px;
+    background-color: transparent;
+    border:2px solid rgba(222, 46, 84, 1);
+    border-radius: 8px;
+    color: rgba(222, 46, 84, 1);
+}
+.sc1{
+    background-image: url('./imgs/background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 75vh;
+}
+.main-button button{
+    letter-spacing: 2px;
+    color: white;
+    font-size: 15px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(222, 46, 84, 0.8);
+    padding: 12px 24px;
+}
+.main-head{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+}
+.all-text{
+    display: flex;
+    flex-direction: column;
+    row-gap: 49px;
+    justify-content: center;
+}
+.main-header .text1{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.text1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    row-gap: 80px;
+}
+.main-texts{
+    display: flex;
+    flex-direction: column;
+    row-gap: 49px;
+}
+.main-img{
+    height: 75vh;
+    display: flex;
+    align-items: end;
+}
+.texts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.all-footer{
+    background-color: rgba(14, 180, 193, 1);
+    height: 70vh;
+}
+.footer-text{
+    text-align: center;
+    padding: 64px;
+}
+.texts-1{
+    display: flex;
+    flex-direction: column;
+    padding: 64px;
+    row-gap: 24px;
+}
+.all-foot{
+    display: flex;
+    justify-content: center;
+    gap: 68px;
+}
+.maps-footer iframe{
+    border-radius: 10px;
+}
+.inputs-footer{
+    background-color: white;
+    width: 540px;
+    height: 331px;
+    border-radius: 10px;
+}
+.inputs-footer form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 28px;
+    row-gap: 14px;
+}
+.inputs-footer form button{
+    width: 460px;
+    height: 39.11px;
+    background-color: rgba(56, 204, 139, 1);
+    color: white;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.inputs-footer form input{
+    width: 460px;
+    height: 39.11px;
+}
+.end{
+    background-color: rgba(34, 34, 34, 1);
+    height: 100px;
+}
+.end-container{
+    margin: 0 auto;
+    width: 100%;
+}
+.end-logo{
+    display: flex;
+}
+.end-main{
+    display: flex;
+    padding-top: 24px;
+    justify-content: space-around;
+}
+.end-texts{
+    display: flex;
+    gap: 32px;
+    color: white;
+}
+.endd{
+    background-color: rgba(34, 34, 34, 1);
+}
+.end-main{
+    display: flex;
+    align-items: center;
+}
+/* texts */
+.t1{
+    font-weight: 600;
+    font-size: 24px;
+    color: rgba(222, 46, 84, 1);
+    padding: 16px;
+}
+.t2{
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.t3{
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.t4{
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.t5{
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+}
+.t6{
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 66px;
+    text-align: center;
+}
+.t7{
+    font-size: 24px;
+    font-weight: 700;
+}
+.t9{
+    font-size: 64px;
+    font-weight: 600;
+    color: black;
+}
+.t2:hover{
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: rgba(222, 46, 84, 1);
+}
+.t3:hover{
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: rgba(222, 46, 84, 1);
+}
+.t4:hover{
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: rgba(222, 46, 84, 1);
+}
